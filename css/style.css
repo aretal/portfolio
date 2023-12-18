@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+                        /* Start Header */
+.header-port{
+    width: 100%;
+    height: 100px;
+    background-color: #040e27;
+    position: relative;
+}
+.header-port img{
+    position: absolute;
+    left: 100px;
+    top:30%;
+}
+.navigation{
+    position: absolute;
+    top: auto;
+    left:60%;
+   
+}
+.navigation ul li{
+    list-style-type: none;
+    float: left;
+    padding: 25px;
+}
+.navigation ul li a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 0 0 0 0;
+    font-family: "Alata",sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;   
+}
+                        /* End Header */
+                        /* Start Section PORTFOLO */
+.portfolio-back {
+    width: 100%;
+    height: 700px;
+    background-color: #040e27;
+    overflow: hidden;   /*  portfolio-back and header-port علشان مخليش فيه هامش بين */ 
+    position: relative;
+   
+}
+.portfolio-back h5{
+    margin-top: 0;
+    /* background-color: chartreuse; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Poppins",sans-serif;
+    -webkit-text-stroke: 1px #1e273d;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 150px;
+}
+.portfolio-back span{
+    position: absolute;
+    top: 170px;
+    left: 40%;
+    font-size: 30px;
+    font-weight: 400;
+    color: #0181F5;
+    display: block;
+    /* margin-bottom: 22px; */
+    font-family: "Alata", sans-serif;
+}
+
+.portfolio-back h3{
+    position: absolute;
+    top: 200px;
+    left: 9%;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFF;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    text-align:center;
+}
+                        /* End Section PORTFOLO */
+.product-image{
+    width: 100%;
+    height: 100%;
+    background-color: #040e27;
+}
+.product-image img{
+   width: 33.3%;
+   height: 400px;
+   float: left;
+}
